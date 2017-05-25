@@ -514,52 +514,5 @@
     "id": "searchproduct-imac",
     "keyword": "Feature",
     "uri": "SearchProduct-iMac.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 4,
-        "name": "IntroduceHelp",
-        "description": "",
-        "id": "openhelppage;introducehelp",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 5,
-            "name": "Help Page link is visible",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 6,
-            "name": "I click the Help link",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 7,
-            "name": "Help page should open",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "openhelppage",
-    "description": "As a learner\r\nHelp link should be visible and should be openable.",
-    "id": "openhelppage",
-    "keyword": "Feature",
-    "uri": "openhelppage.feature"
   }
 ]
