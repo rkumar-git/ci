@@ -1,0 +1,565 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "OpenApplication",
+        "description": "",
+        "id": "launchopencartstoreapplication:;openapplication",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "The WebBrowser Opened",
+            "match": {
+              "location": "LaunchOpenCartStoreApplication_Steps.the_WebBrowser_Opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I Navigate to OpenStore Application",
+            "match": {
+              "location": "LaunchOpenCartStoreApplication_Steps.i_Navigate_to_OpenStore_Application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "OpenStore Application Should be displayed",
+            "match": {
+              "location": "LaunchOpenCartStoreApplication_Steps.openstore_Application_Should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Verify OpenCart Application Properties",
+        "description": "",
+        "id": "launchopencartstoreapplication:;verify-opencart-application-properties",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "OpenCart Application is Active",
+            "match": {
+              "location": "LaunchOpenCartStoreApplication_Steps.opencart_Application_is_Active()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "OpenCart Image Should be displayed",
+            "match": {
+              "location": "LaunchOpenCartStoreApplication_Steps.opencart_Image_Should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Search Inputbox should be displayed",
+            "match": {
+              "location": "LaunchOpenCartStoreApplication_Steps.search_Inputbox_should_be_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Search Button should be displayed",
+            "match": {
+              "location": "LaunchOpenCartStoreApplication_Steps.search_Button_should_be_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "MyAccount Link should be displayed",
+            "match": {
+              "location": "LaunchOpenCartStoreApplication_Steps.myaccount_Link_should_be_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "LaunchOpenCartStoreApplication:",
+    "description": "As a User,\r\nI want to Login to OpenCart Application\r\nSo that I can purchse items online",
+    "id": "launchopencartstoreapplication:",
+    "keyword": "Feature",
+    "uri": "LaunchOpenCartStoreApplication.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Navigate to MyAccount",
+        "description": "",
+        "id": "logintomyaccount;navigate-to-myaccount",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "OpenCart MyAccount Page is Navigated",
+            "match": {
+              "location": "LoginToMyAccount_Steps.opencart_MyAccount_Page_is_Navigated()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "MyAccount Page is Active",
+            "match": {
+              "location": "LoginToMyAccount_Steps.myaccount_Page_is_Active()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "EMailAddress Field should be enabled",
+            "match": {
+              "location": "LoginToMyAccount_Steps.emailaddress_Field_should_be_enabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Password Field should be enabled",
+            "match": {
+              "location": "LoginToMyAccount_Steps.password_Field_should_be_enabled()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Login Button should be enabled",
+            "match": {
+              "location": "LoginToMyAccount_Steps.login_Button_should_be_enabled()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Login To OpenCartApplication_MyAccount Without UserName and Password and Verify Error Message",
+        "description": "",
+        "id": "logintomyaccount;login-to-opencartapplication-myaccount-without-username-and-password-and-verify-error-message",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "UserName field displayed",
+            "match": {
+              "location": "LoginToMyAccount_Steps.username_field_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Password Field dispayed",
+            "match": {
+              "location": "LoginToMyAccount_Steps.password_Field_dispayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Enter Usernamd as Empty String",
+            "match": {
+              "location": "LoginToMyAccount_Steps.enter_Usernamd_as_Empty_String()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Enter Password as Empty String",
+            "match": {
+              "location": "LoginToMyAccount_Steps.enter_Password_as_Empty_String()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Click the Submit Button",
+            "match": {
+              "location": "LoginToMyAccount_Steps.click_the_Submit_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Warning Message should be displayed",
+            "match": {
+              "location": "LoginToMyAccount_Steps.warning_Message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Login To OpenCartApplication_MyAccount With Invalid UserName and Password and Verify error message.",
+        "description": "",
+        "id": "logintomyaccount;login-to-opencartapplication-myaccount-with-invalid-username-and-password-and-verify-error-message.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "UserName field displayed",
+            "match": {
+              "location": "LoginToMyAccount_Steps.username_field_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Password Field dispayed",
+            "match": {
+              "location": "LoginToMyAccount_Steps.password_Field_dispayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Enter Invalid UserName",
+            "match": {
+              "location": "LoginToMyAccount_Steps.enter_Invalid_UserName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "Enter Invalid Password",
+            "match": {
+              "location": "LoginToMyAccount_Steps.enter_Invalid_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "Click the Submit Button",
+            "match": {
+              "location": "LoginToMyAccount_Steps.click_the_Submit_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "Warning Message should be displayed",
+            "match": {
+              "location": "LoginToMyAccount_Steps.warning_Message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@tag3"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Login To OpenCartApplication_MyAccount With valid Username and Password and Verify landing page",
+        "description": "",
+        "id": "logintomyaccount;login-to-opencartapplication-myaccount-with-valid-username-and-password-and-verify-landing-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "UserName field displayed",
+            "match": {
+              "location": "LoginToMyAccount_Steps.username_field_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "Password Field dispayed",
+            "match": {
+              "location": "LoginToMyAccount_Steps.password_Field_dispayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "Enter Valid UserName",
+            "match": {
+              "location": "LoginToMyAccount_Steps.enter_Valid_UserName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "Enter Valid Password",
+            "match": {
+              "location": "LoginToMyAccount_Steps.enter_Valid_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "Click the Submit Button",
+            "match": {
+              "location": "LoginToMyAccount_Steps.click_the_Submit_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "MyAccount Page should be displayed",
+            "match": {
+              "location": "LoginToMyAccount_Steps.myaccount_Page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@tag4"
+          }
+        ]
+      }
+    ],
+    "name": "LoginToMyAccount",
+    "description": "As a User,\r\nI should be able to Login to My Account.",
+    "id": "logintomyaccount",
+    "keyword": "Feature",
+    "uri": "LoginToMyAccount.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Search for iMac",
+        "description": "",
+        "id": "searchproduct-imac;search-for-imac",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "OpenCart Application is Displayed",
+            "match": {
+              "location": "SearchProduct_Steps.opencart_Application_is_Displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I Search for Product",
+            "match": {
+              "location": "SearchProduct_Steps.i_Search_for_Product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Search list of the product should be displayed",
+            "match": {
+              "location": "SearchProduct_Steps.search_list_of_the_product_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "SearchProduct-iMac",
+    "description": "As a User,\r\nI want to search for products in Open Cart store",
+    "id": "searchproduct-imac",
+    "keyword": "Feature",
+    "uri": "SearchProduct-iMac.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "IntroduceHelp",
+        "description": "",
+        "id": "openhelppage;introducehelp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Help Page link is visible",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I click the Help link",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Help page should open",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "openhelppage",
+    "description": "As a learner\r\nHelp link should be visible and should be openable.",
+    "id": "openhelppage",
+    "keyword": "Feature",
+    "uri": "openhelppage.feature"
+  }
+]
