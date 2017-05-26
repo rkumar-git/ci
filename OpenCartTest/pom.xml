@@ -92,10 +92,10 @@
          <executions>
          	<execution>         		
          		<id>TestRunner</id>
-         			<phase>integration-test</phase>
+         			<!-- <phase>integration-test</phase>
          				<goals>         					
                             <goal>integration-test</goal>
-                        </goals>
+                        </goals>--> 
               	</execution>
            </executions>
       </plugin>

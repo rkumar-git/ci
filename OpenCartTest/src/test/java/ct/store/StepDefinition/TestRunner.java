@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 		format = {"json:target/Destination/cucumberReport.json"},
         features = "src/test/java/ct/store/features",
         glue={"ct.store.StepDefinition"},
-        dryRun=true
+        dryRun=false
          )
 public class TestRunner {
 
