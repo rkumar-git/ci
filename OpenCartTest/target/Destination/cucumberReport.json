@@ -12,7 +12,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 15050134945,
+              "status": "passed"
             },
             "line": 9,
             "name": "The WebBrowser Opened",
@@ -23,7 +24,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 14701680530,
+              "status": "passed"
             },
             "line": 10,
             "name": "I Navigate to OpenStore Application",
@@ -34,7 +36,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1974051999,
+              "status": "passed"
             },
             "line": 11,
             "name": "OpenStore Application Should be displayed",
@@ -61,7 +64,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 75444466,
+              "status": "passed"
             },
             "line": 15,
             "name": "OpenCart Application is Active",
@@ -72,7 +76,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 103733415,
+              "status": "passed"
             },
             "line": 16,
             "name": "OpenCart Image Should be displayed",
@@ -83,7 +88,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 55140142,
+              "status": "passed"
             },
             "line": 17,
             "name": "Search Inputbox should be displayed",
@@ -94,7 +100,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 133838586,
+              "status": "passed"
             },
             "line": 18,
             "name": "Search Button should be displayed",
@@ -105,7 +112,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2329879929,
+              "status": "passed"
             },
             "line": 19,
             "name": "MyAccount Link should be displayed",
@@ -142,7 +150,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 18408178948,
+              "status": "passed"
             },
             "line": 7,
             "name": "OpenCart MyAccount Page is Navigated",
@@ -153,7 +162,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 54827104,
+              "status": "passed"
             },
             "line": 8,
             "name": "MyAccount Page is Active",
@@ -164,7 +174,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 26472725,
+              "status": "passed"
             },
             "line": 9,
             "name": "EMailAddress Field should be enabled",
@@ -175,7 +186,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 19609395,
+              "status": "passed"
             },
             "line": 10,
             "name": "Password Field should be enabled",
@@ -186,7 +198,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 23151179,
+              "status": "passed"
             },
             "line": 11,
             "name": "Login Button should be enabled",
@@ -213,7 +226,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 3788116418,
+              "status": "passed"
             },
             "line": 15,
             "name": "UserName field displayed",
@@ -224,7 +238,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 41056394,
+              "status": "passed"
             },
             "line": 16,
             "name": "Password Field dispayed",
@@ -235,7 +250,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1075459005,
+              "status": "passed"
             },
             "line": 17,
             "name": "Enter Usernamd as Empty String",
@@ -246,7 +262,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1048204111,
+              "status": "passed"
             },
             "line": 18,
             "name": "Enter Password as Empty String",
@@ -257,7 +274,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1055903495,
+              "status": "passed"
             },
             "line": 19,
             "name": "Click the Submit Button",
@@ -268,7 +286,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 78687,
+              "status": "passed"
             },
             "line": 20,
             "name": "Warning Message should be displayed",
@@ -295,7 +314,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 3757378326,
+              "status": "passed"
             },
             "line": 24,
             "name": "UserName field displayed",
@@ -306,7 +326,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 52498130,
+              "status": "passed"
             },
             "line": 25,
             "name": "Password Field dispayed",
@@ -317,7 +338,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1148899510,
+              "status": "passed"
             },
             "line": 26,
             "name": "Enter Invalid UserName",
@@ -328,7 +350,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1384642458,
+              "status": "passed"
             },
             "line": 27,
             "name": "Enter Invalid Password",
@@ -339,7 +362,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1099921783,
+              "status": "passed"
             },
             "line": 28,
             "name": "Click the Submit Button",
@@ -350,7 +374,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 104774,
+              "status": "passed"
             },
             "line": 29,
             "name": "Warning Message should be displayed",
@@ -377,7 +402,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 3826076637,
+              "status": "passed"
             },
             "line": 33,
             "name": "UserName field displayed",
@@ -388,7 +414,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 48181447,
+              "status": "passed"
             },
             "line": 34,
             "name": "Password Field dispayed",
@@ -399,7 +426,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1359930362,
+              "status": "passed"
             },
             "line": 35,
             "name": "Enter Valid UserName",
@@ -410,7 +438,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1155903111,
+              "status": "passed"
             },
             "line": 36,
             "name": "Enter Valid Password",
@@ -421,7 +450,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1068179573,
+              "status": "passed"
             },
             "line": 37,
             "name": "Click the Submit Button",
@@ -432,7 +462,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1717424837,
+              "status": "passed"
             },
             "line": 38,
             "name": "MyAccount Page should be displayed",
@@ -469,7 +500,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 12651738028,
+              "status": "passed"
             },
             "line": 7,
             "name": "OpenCart Application is Displayed",
@@ -480,7 +512,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3224213116,
+              "status": "passed"
             },
             "line": 8,
             "name": "I Search for Product",
@@ -491,7 +524,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1676761452,
+              "status": "passed"
             },
             "line": 9,
             "name": "Search list of the product should be displayed",
