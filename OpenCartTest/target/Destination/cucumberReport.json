@@ -12,8 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15050134945,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 9,
             "name": "The WebBrowser Opened",
@@ -24,8 +23,7 @@
           },
           {
             "result": {
-              "duration": 14701680530,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 10,
             "name": "I Navigate to OpenStore Application",
@@ -36,8 +34,7 @@
           },
           {
             "result": {
-              "duration": 1974051999,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "OpenStore Application Should be displayed",
@@ -64,8 +61,7 @@
         "steps": [
           {
             "result": {
-              "duration": 75444466,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "OpenCart Application is Active",
@@ -76,8 +72,7 @@
           },
           {
             "result": {
-              "duration": 103733415,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "OpenCart Image Should be displayed",
@@ -88,8 +83,7 @@
           },
           {
             "result": {
-              "duration": 55140142,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "Search Inputbox should be displayed",
@@ -100,8 +94,7 @@
           },
           {
             "result": {
-              "duration": 133838586,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "Search Button should be displayed",
@@ -112,8 +105,7 @@
           },
           {
             "result": {
-              "duration": 2329879929,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 19,
             "name": "MyAccount Link should be displayed",
@@ -150,8 +142,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18408178948,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "OpenCart MyAccount Page is Navigated",
@@ -162,8 +153,7 @@
           },
           {
             "result": {
-              "duration": 54827104,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 8,
             "name": "MyAccount Page is Active",
@@ -174,8 +164,7 @@
           },
           {
             "result": {
-              "duration": 26472725,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 9,
             "name": "EMailAddress Field should be enabled",
@@ -186,8 +175,7 @@
           },
           {
             "result": {
-              "duration": 19609395,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 10,
             "name": "Password Field should be enabled",
@@ -198,8 +186,7 @@
           },
           {
             "result": {
-              "duration": 23151179,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "Login Button should be enabled",
@@ -226,8 +213,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3788116418,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "UserName field displayed",
@@ -238,8 +224,7 @@
           },
           {
             "result": {
-              "duration": 41056394,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "Password Field dispayed",
@@ -250,8 +235,7 @@
           },
           {
             "result": {
-              "duration": 1075459005,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "Enter Usernamd as Empty String",
@@ -262,8 +246,7 @@
           },
           {
             "result": {
-              "duration": 1048204111,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "Enter Password as Empty String",
@@ -274,8 +257,7 @@
           },
           {
             "result": {
-              "duration": 1055903495,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 19,
             "name": "Click the Submit Button",
@@ -286,8 +268,7 @@
           },
           {
             "result": {
-              "duration": 78687,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 20,
             "name": "Warning Message should be displayed",
@@ -314,8 +295,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3757378326,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 24,
             "name": "UserName field displayed",
@@ -326,8 +306,7 @@
           },
           {
             "result": {
-              "duration": 52498130,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 25,
             "name": "Password Field dispayed",
@@ -338,8 +317,7 @@
           },
           {
             "result": {
-              "duration": 1148899510,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 26,
             "name": "Enter Invalid UserName",
@@ -350,8 +328,7 @@
           },
           {
             "result": {
-              "duration": 1384642458,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 27,
             "name": "Enter Invalid Password",
@@ -362,8 +339,7 @@
           },
           {
             "result": {
-              "duration": 1099921783,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 28,
             "name": "Click the Submit Button",
@@ -374,8 +350,7 @@
           },
           {
             "result": {
-              "duration": 104774,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 29,
             "name": "Warning Message should be displayed",
@@ -402,8 +377,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3826076637,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 33,
             "name": "UserName field displayed",
@@ -414,8 +388,7 @@
           },
           {
             "result": {
-              "duration": 48181447,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 34,
             "name": "Password Field dispayed",
@@ -426,8 +399,7 @@
           },
           {
             "result": {
-              "duration": 1359930362,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 35,
             "name": "Enter Valid UserName",
@@ -438,8 +410,7 @@
           },
           {
             "result": {
-              "duration": 1155903111,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 36,
             "name": "Enter Valid Password",
@@ -450,8 +421,7 @@
           },
           {
             "result": {
-              "duration": 1068179573,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 37,
             "name": "Click the Submit Button",
@@ -462,8 +432,7 @@
           },
           {
             "result": {
-              "duration": 1717424837,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 38,
             "name": "MyAccount Page should be displayed",
@@ -500,8 +469,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12651738028,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "OpenCart Application is Displayed",
@@ -512,8 +480,7 @@
           },
           {
             "result": {
-              "duration": 3224213116,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 8,
             "name": "I Search for Product",
@@ -524,8 +491,7 @@
           },
           {
             "result": {
-              "duration": 1676761452,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 9,
             "name": "Search list of the product should be displayed",
@@ -548,5 +514,47 @@
     "id": "searchproduct-imac",
     "keyword": "Feature",
     "uri": "SearchProduct-iMac.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "CheckInToGit",
+        "description": "",
+        "id": "sycwuthgit;checkintogit",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "ChangeInCode",
+            "match": {
+              "location": "SyncWithGit.changeincode()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "AutoBuild should be executed",
+            "match": {
+              "location": "SyncWithGit.autobuild_should_be_executed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SycWuthGit",
+    "description": "As a User\r\nI need to checkin new code",
+    "id": "sycwuthgit",
+    "keyword": "Feature",
+    "uri": "SyncWithGit.feature"
   }
 ]

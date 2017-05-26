@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
         features = "src/test/java/ct/store/features",
         glue={"ct.store.StepDefinition"},
         dryRun=false
-         )
+        )
 public class TestRunner {
 
 }
