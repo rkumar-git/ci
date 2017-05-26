@@ -8,6 +8,7 @@ public class SyncWithGit {
 	public void changeincode() throws Throwable {
 	   JenkinAutoRunCheck autocheck = new JenkinAutoRunCheck();
 	   System.out.println("Check In time:" + autocheck.getCheckinTime());
+	   System.out.println("Updated on 25 May 2017 - 5:30 PM");
 	}
 
 	@Then("^AutoBuild should be executed$")
