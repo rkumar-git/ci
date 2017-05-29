@@ -3,7 +3,7 @@ Feature:LoginToMyAccount
 	I should be able to Login to My Account.
 	
 	@high
-	@smoke_test
+	@SmokeTest
 	@regression
 	Scenario: Navigate to MyAccount
 	Given OpenCart MyAccount Page is Navigated
@@ -13,7 +13,7 @@ Feature:LoginToMyAccount
 	And Login Button should be enabled
 
 	@high
-	@regression
+	@RegressionTest
 	Scenario: Login To OpenCartApplication_MyAccount Without UserName and Password and Verify Error Message
 	Given UserName field displayed
 		And Password Field dispayed 
@@ -23,8 +23,8 @@ Feature:LoginToMyAccount
 	Then Warning Message should be displayed 
 	
 @medium
-@smoke_test
-@regression
+@SmokeTest
+@RegressionTest
 Scenario: Login To OpenCartApplication_MyAccount With Invalid UserName and Password and Verify error message.
 Given UserName field displayed
 	And Password Field dispayed 
@@ -34,8 +34,8 @@ When Enter Invalid UserName
 Then Warning Message should be displayed 
 
 @high
-@smoke_test
-@regression
+@SmokeTest
+@RegressionTest
 Scenario: Login To OpenCartApplication_MyAccount With valid Username and Password and Verify landing page
 	Given UserName field displayed
 	And Password Field dispayed 

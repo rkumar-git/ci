@@ -4,8 +4,8 @@ I want to Login to OpenCart Application
 So that I can purchse items online	
 
 	
-	@hign
-	@smoke_test
+	@high
+	@SmokeTest
 	@regression
 	Scenario: OpenApplication
 	Given The WebBrowser Opened
@@ -13,7 +13,7 @@ So that I can purchse items online
 	Then OpenStore Application Should be displayed 
 
 	@high
-	@smoke_test
+	@SmokeTest
 	@regression
 	Scenario: Verify OpenCart Application Properties
 	Given OpenCart Application is Active
