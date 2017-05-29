@@ -6,7 +6,7 @@ So that I can purchse items online
 	
 	@high
 	@SmokeTest
-	@regression
+	@RegressionTest
 	Scenario: OpenApplication
 	Given The WebBrowser Opened
 	When I Navigate to OpenStore Application
@@ -14,7 +14,7 @@ So that I can purchse items online
 
 	@high
 	@SmokeTest
-	@regression
+	@RegressionTest
 	Scenario: Verify OpenCart Application Properties
 	Given OpenCart Application is Active
 	Then OpenCart Image Should be displayed
