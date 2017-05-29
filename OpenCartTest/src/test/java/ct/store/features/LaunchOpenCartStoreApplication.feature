@@ -4,13 +4,17 @@ I want to Login to OpenCart Application
 So that I can purchse items online	
 
 	
-	@tag1
+	@hign
+	@smoke_test
+	@regression
 	Scenario: OpenApplication
 	Given The WebBrowser Opened
 	When I Navigate to OpenStore Application
 	Then OpenStore Application Should be displayed 
 
-	@tag2
+	@high
+	@smoke_test
+	@regression
 	Scenario: Verify OpenCart Application Properties
 	Given OpenCart Application is Active
 	Then OpenCart Image Should be displayed

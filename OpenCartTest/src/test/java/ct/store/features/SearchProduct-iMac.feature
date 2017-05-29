@@ -2,7 +2,7 @@ Feature:SearchProduct-iMac
 	As a User,
 	I want to search for products in Open Cart store
 	
-	@tag1
+	@smoke_test
 	Scenario: Search for iMac
 	Given OpenCart Application is Displayed
 	When I Search for Product

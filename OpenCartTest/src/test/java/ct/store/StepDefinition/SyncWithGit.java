@@ -15,6 +15,4 @@ public class SyncWithGit {
 	public void autobuild_should_be_executed() throws Throwable {
 		 System.out.println("Check auto buils triggered..");
 	}
-
-
 }
