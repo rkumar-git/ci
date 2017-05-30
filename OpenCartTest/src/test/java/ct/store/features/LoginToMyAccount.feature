@@ -4,7 +4,7 @@ Feature:LoginToMyAccount
 	
 	@high
 	@SmokeTest
-	@regression
+	@RegressionTest
 	Scenario: Navigate to MyAccount
 	Given OpenCart MyAccount Page is Navigated
 	When MyAccount Page is Active
