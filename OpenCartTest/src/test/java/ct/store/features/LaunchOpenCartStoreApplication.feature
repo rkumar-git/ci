@@ -6,14 +6,12 @@ So that I can purchse items online
 	
 	@high
 	@SmokeTest
-	@RegressionTest
 	Scenario: OpenApplication
 	Given The WebBrowser Opened
 	When I Navigate to OpenStore Application
 	Then OpenStore Application Should be displayed 
 
 	@high
-	@SmokeTest
 	@RegressionTest
 	Scenario: Verify OpenCart Application Properties
 	Given OpenCart Application is Active

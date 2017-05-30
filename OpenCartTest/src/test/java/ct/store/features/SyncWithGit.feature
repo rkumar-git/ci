@@ -7,3 +7,9 @@ Scenario:CheckInToGit
 	When ChangeInCode
 	Then AutoBuild should be executed
 	And PublichResult
+	
+	@RegressionTest
+Scenario:CheckInToGitForRegression
+	When ChangeInCode
+	Then AutoBuild should be executed
+	And PublichResult

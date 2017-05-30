@@ -4,7 +4,6 @@ Feature:LoginToMyAccount
 	
 	@high
 	@SmokeTest
-	@RegressionTest
 	Scenario: Navigate to MyAccount
 	Given OpenCart MyAccount Page is Navigated
 	When MyAccount Page is Active
@@ -23,7 +22,6 @@ Feature:LoginToMyAccount
 	Then Warning Message should be displayed 
 	
 @medium
-@SmokeTest
 @RegressionTest
 Scenario: Login To OpenCartApplication_MyAccount With Invalid UserName and Password and Verify error message.
 Given UserName field displayed
@@ -34,7 +32,6 @@ When Enter Invalid UserName
 Then Warning Message should be displayed 
 
 @high
-@SmokeTest
 @RegressionTest
 Scenario: Login To OpenCartApplication_MyAccount With valid Username and Password and Verify landing page
 	Given UserName field displayed
