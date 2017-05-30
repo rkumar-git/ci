@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="13990" started-at="2017-05-29T06:57:36Z" finished-at="2017-05-29T06:57:50Z">
+  <suite name="Surefire suite" duration-ms="23517" started-at="2017-05-30T11:12:01Z" finished-at="2017-05-30T11:12:24Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="13990" started-at="2017-05-29T06:57:36Z" finished-at="2017-05-29T06:57:50Z">
+    <test name="Surefire test" duration-ms="23517" started-at="2017-05-30T11:12:01Z" finished-at="2017-05-30T11:12:24Z">
       <class name="example.SampleTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.SampleTest@573f2bb1]" name="beforeTest" is-config="true" duration-ms="8786" started-at="2017-05-29T12:27:36Z" finished-at="2017-05-29T12:27:45Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.SampleTest@573f2bb1]" name="beforeTest" is-config="true" duration-ms="11715" started-at="2017-05-30T16:42:01Z" finished-at="2017-05-30T16:42:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="launchOpenCart()[pri:0, instance:example.SampleTest@573f2bb1]" name="launchOpenCart" duration-ms="3733" started-at="2017-05-29T12:27:45Z" finished-at="2017-05-29T12:27:49Z">
+        <test-method status="PASS" signature="launchOpenCart()[pri:0, instance:example.SampleTest@573f2bb1]" name="launchOpenCart" duration-ms="10456" started-at="2017-05-30T16:42:12Z" finished-at="2017-05-30T16:42:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchOpenCart -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.SampleTest@573f2bb1]" name="afterTest" is-config="true" duration-ms="1421" started-at="2017-05-29T12:27:49Z" finished-at="2017-05-29T12:27:50Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.SampleTest@573f2bb1]" name="afterTest" is-config="true" duration-ms="1317" started-at="2017-05-30T16:42:23Z" finished-at="2017-05-30T16:42:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

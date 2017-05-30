@@ -16,15 +16,15 @@ formatter.scenario({
   "tags": [
     {
       "line": 7,
-      "name": "@hign"
+      "name": "@high"
     },
     {
       "line": 8,
-      "name": "@smoke_test"
+      "name": "@SmokeTest"
     },
     {
       "line": 9,
-      "name": "@regression"
+      "name": "@RegressionTest"
     }
   ]
 });
@@ -47,21 +47,21 @@ formatter.match({
   "location": "LaunchOpenCartStoreApplication_Steps.the_WebBrowser_Opened()"
 });
 formatter.result({
-  "duration": 17944571835,
+  "duration": 13172948514,
   "status": "passed"
 });
 formatter.match({
   "location": "LaunchOpenCartStoreApplication_Steps.i_Navigate_to_OpenStore_Application()"
 });
 formatter.result({
-  "duration": 5795500556,
+  "duration": 4261246899,
   "status": "passed"
 });
 formatter.match({
   "location": "LaunchOpenCartStoreApplication_Steps.openstore_Application_Should_be_displayed()"
 });
 formatter.result({
-  "duration": 533906408,
+  "duration": 546442449,
   "status": "passed"
 });
 formatter.scenario({
@@ -78,11 +78,11 @@ formatter.scenario({
     },
     {
       "line": 16,
-      "name": "@smoke_test"
+      "name": "@SmokeTest"
     },
     {
       "line": 17,
-      "name": "@regression"
+      "name": "@RegressionTest"
     }
   ]
 });
@@ -115,35 +115,35 @@ formatter.match({
   "location": "LaunchOpenCartStoreApplication_Steps.opencart_Application_is_Active()"
 });
 formatter.result({
-  "duration": 54371877,
+  "duration": 88846201,
   "status": "passed"
 });
 formatter.match({
   "location": "LaunchOpenCartStoreApplication_Steps.opencart_Image_Should_be_displayed()"
 });
 formatter.result({
-  "duration": 106356201,
+  "duration": 73273012,
   "status": "passed"
 });
 formatter.match({
   "location": "LaunchOpenCartStoreApplication_Steps.search_Inputbox_should_be_displayed()"
 });
 formatter.result({
-  "duration": 80129046,
+  "duration": 44352111,
   "status": "passed"
 });
 formatter.match({
   "location": "LaunchOpenCartStoreApplication_Steps.search_Button_should_be_displayed()"
 });
 formatter.result({
-  "duration": 172437476,
+  "duration": 51584902,
   "status": "passed"
 });
 formatter.match({
   "location": "LaunchOpenCartStoreApplication_Steps.myaccount_Link_should_be_displayed()"
 });
 formatter.result({
-  "duration": 1522654164,
+  "duration": 765531065,
   "status": "passed"
 });
 formatter.uri("LoginToMyAccount.feature");
@@ -168,11 +168,11 @@ formatter.scenario({
     },
     {
       "line": 6,
-      "name": "@smoke_test"
+      "name": "@SmokeTest"
     },
     {
       "line": 7,
-      "name": "@regression"
+      "name": "@RegressionTest"
     }
   ]
 });
@@ -205,125 +205,35 @@ formatter.match({
   "location": "LoginToMyAccount_Steps.opencart_MyAccount_Page_is_Navigated()"
 });
 formatter.result({
-  "duration": 10698633412,
+  "duration": 23325780520,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.myaccount_Page_is_Active()"
 });
 formatter.result({
-  "duration": 43749556,
+  "duration": 58739861,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.emailaddress_Field_should_be_enabled()"
 });
 formatter.result({
-  "duration": 29490955,
+  "duration": 25037013,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.password_Field_should_be_enabled()"
 });
 formatter.result({
-  "duration": 20783637,
+  "duration": 27909517,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.login_Button_should_be_enabled()"
 });
 formatter.result({
-  "duration": 18920380,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 17,
-  "name": "Login To OpenCartApplication_MyAccount Without UserName and Password and Verify Error Message",
-  "description": "",
-  "id": "logintomyaccount;login-to-opencartapplication-myaccount-without-username-and-password-and-verify-error-message",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 15,
-      "name": "@high"
-    },
-    {
-      "line": 16,
-      "name": "@regression"
-    }
-  ]
-});
-formatter.step({
-  "line": 18,
-  "name": "UserName field displayed",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 19,
-  "name": "Password Field dispayed",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 20,
-  "name": "Enter Usernamd as Empty String",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 21,
-  "name": "Enter Password as Empty String",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 22,
-  "name": "Click the Submit Button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 23,
-  "name": "Warning Message should be displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginToMyAccount_Steps.username_field_displayed()"
-});
-formatter.result({
-  "duration": 4139909373,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginToMyAccount_Steps.password_Field_dispayed()"
-});
-formatter.result({
-  "duration": 41145186,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginToMyAccount_Steps.enter_Usernamd_as_Empty_String()"
-});
-formatter.result({
-  "duration": 1098765896,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginToMyAccount_Steps.enter_Password_as_Empty_String()"
-});
-formatter.result({
-  "duration": 1067887655,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginToMyAccount_Steps.click_the_Submit_Button()"
-});
-formatter.result({
-  "duration": 1169320358,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginToMyAccount_Steps.warning_Message_should_be_displayed()"
-});
-formatter.result({
-  "duration": 152242,
+  "duration": 35709368,
   "status": "passed"
 });
 formatter.scenario({
@@ -340,11 +250,11 @@ formatter.scenario({
     },
     {
       "line": 26,
-      "name": "@smoke_test"
+      "name": "@SmokeTest"
     },
     {
       "line": 27,
-      "name": "@regression"
+      "name": "@RegressionTest"
     }
   ]
 });
@@ -382,42 +292,42 @@ formatter.match({
   "location": "LoginToMyAccount_Steps.username_field_displayed()"
 });
 formatter.result({
-  "duration": 3700575356,
+  "duration": 3822349509,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.password_Field_dispayed()"
 });
 formatter.result({
-  "duration": 40210351,
+  "duration": 47992669,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.enter_Invalid_UserName()"
 });
 formatter.result({
-  "duration": 1201110769,
+  "duration": 1207588765,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.enter_Invalid_Password()"
 });
 formatter.result({
-  "duration": 1141347977,
+  "duration": 1133256471,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.click_the_Submit_Button()"
 });
 formatter.result({
-  "duration": 1091144802,
+  "duration": 1067885944,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.warning_Message_should_be_displayed()"
 });
 formatter.result({
-  "duration": 169348,
+  "duration": 64147,
   "status": "passed"
 });
 formatter.scenario({
@@ -434,11 +344,11 @@ formatter.scenario({
     },
     {
       "line": 37,
-      "name": "@smoke_test"
+      "name": "@SmokeTest"
     },
     {
       "line": 38,
-      "name": "@regression"
+      "name": "@RegressionTest"
     }
   ]
 });
@@ -476,140 +386,42 @@ formatter.match({
   "location": "LoginToMyAccount_Steps.username_field_displayed()"
 });
 formatter.result({
-  "duration": 3713962841,
+  "duration": 3930656207,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.password_Field_dispayed()"
 });
 formatter.result({
-  "duration": 42386218,
+  "duration": 59620386,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.enter_Valid_UserName()"
 });
 formatter.result({
-  "duration": 1331399799,
+  "duration": 1240602675,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.enter_Valid_Password()"
 });
 formatter.result({
-  "duration": 1155726747,
+  "duration": 1149461721,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.click_the_Submit_Button()"
 });
 formatter.result({
-  "duration": 1064052946,
+  "duration": 1060166492,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.myaccount_Page_should_be_displayed()"
 });
 formatter.result({
-  "duration": 1743358430,
-  "status": "passed"
-});
-formatter.uri("SearchProduct-iMac.feature");
-formatter.feature({
-  "line": 1,
-  "name": "SearchProduct-iMac",
-  "description": "As a User,\r\nI want to search for products in Open Cart store",
-  "id": "searchproduct-imac",
-  "keyword": "Feature"
-});
-formatter.scenario({
-  "line": 6,
-  "name": "Search for iMac",
-  "description": "",
-  "id": "searchproduct-imac;search-for-imac",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 5,
-      "name": "@smoke_test"
-    }
-  ]
-});
-formatter.step({
-  "line": 7,
-  "name": "OpenCart Application is Displayed",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 8,
-  "name": "I Search for Product",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 9,
-  "name": "Search list of the product should be displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "SearchProduct_Steps.opencart_Application_is_Displayed()"
-});
-formatter.result({
-  "duration": 12080990328,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SearchProduct_Steps.i_Search_for_Product()"
-});
-formatter.result({
-  "duration": 3494576582,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SearchProduct_Steps.search_list_of_the_product_should_be_displayed()"
-});
-formatter.result({
-  "duration": 1621292194,
-  "status": "passed"
-});
-formatter.uri("SyncWithGit.feature");
-formatter.feature({
-  "line": 1,
-  "name": "SycWuthGit",
-  "description": "As a User\r\nI need to checkin new code",
-  "id": "sycwuthgit",
-  "keyword": "Feature"
-});
-formatter.scenario({
-  "line": 4,
-  "name": "CheckInToGit",
-  "description": "",
-  "id": "sycwuthgit;checkintogit",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 5,
-  "name": "ChangeInCode",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "AutoBuild should be executed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "SyncWithGit.changeincode()"
-});
-formatter.result({
-  "duration": 44258456,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SyncWithGit.autobuild_should_be_executed()"
-});
-formatter.result({
-  "duration": 118030,
+  "duration": 1898999220,
   "status": "passed"
 });
 });
