@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 10,
+        "line": 9,
         "name": "OpenApplication",
         "description": "",
         "id": "launchopencartstoreapplication:;openapplication",
@@ -12,10 +12,10 @@
         "steps": [
           {
             "result": {
-              "duration": 13172948514,
+              "duration": 7852855270,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "The WebBrowser Opened",
             "match": {
               "location": "LaunchOpenCartStoreApplication_Steps.the_WebBrowser_Opened()"
@@ -24,10 +24,10 @@
           },
           {
             "result": {
-              "duration": 4261246899,
+              "duration": 7451347045,
               "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "I Navigate to OpenStore Application",
             "match": {
               "location": "LaunchOpenCartStoreApplication_Steps.i_Navigate_to_OpenStore_Application()"
@@ -36,10 +36,10 @@
           },
           {
             "result": {
-              "duration": 546442449,
+              "duration": 220366425,
               "status": "passed"
             },
-            "line": 13,
+            "line": 12,
             "name": "OpenStore Application Should be displayed",
             "match": {
               "location": "LaunchOpenCartStoreApplication_Steps.openstore_Application_Should_be_displayed()"
@@ -55,15 +55,11 @@
           {
             "line": 8,
             "name": "@SmokeTest"
-          },
-          {
-            "line": 9,
-            "name": "@RegressionTest"
           }
         ]
       },
       {
-        "line": 18,
+        "line": 16,
         "name": "Verify OpenCart Application Properties",
         "description": "",
         "id": "launchopencartstoreapplication:;verify-opencart-application-properties",
@@ -72,10 +68,10 @@
         "steps": [
           {
             "result": {
-              "duration": 88846201,
+              "duration": 56740184,
               "status": "passed"
             },
-            "line": 19,
+            "line": 17,
             "name": "OpenCart Application is Active",
             "match": {
               "location": "LaunchOpenCartStoreApplication_Steps.opencart_Application_is_Active()"
@@ -84,10 +80,10 @@
           },
           {
             "result": {
-              "duration": 73273012,
+              "duration": 72430548,
               "status": "passed"
             },
-            "line": 20,
+            "line": 18,
             "name": "OpenCart Image Should be displayed",
             "match": {
               "location": "LaunchOpenCartStoreApplication_Steps.opencart_Image_Should_be_displayed()"
@@ -96,10 +92,10 @@
           },
           {
             "result": {
-              "duration": 44352111,
+              "duration": 68643308,
               "status": "passed"
             },
-            "line": 21,
+            "line": 19,
             "name": "Search Inputbox should be displayed",
             "match": {
               "location": "LaunchOpenCartStoreApplication_Steps.search_Inputbox_should_be_displayed()"
@@ -108,10 +104,10 @@
           },
           {
             "result": {
-              "duration": 51584902,
+              "duration": 54227759,
               "status": "passed"
             },
-            "line": 22,
+            "line": 20,
             "name": "Search Button should be displayed",
             "match": {
               "location": "LaunchOpenCartStoreApplication_Steps.search_Button_should_be_displayed()"
@@ -120,10 +116,10 @@
           },
           {
             "result": {
-              "duration": 765531065,
+              "duration": 670405725,
               "status": "passed"
             },
-            "line": 23,
+            "line": 21,
             "name": "MyAccount Link should be displayed",
             "match": {
               "location": "LaunchOpenCartStoreApplication_Steps.myaccount_Link_should_be_displayed()"
@@ -133,15 +129,11 @@
         ],
         "tags": [
           {
-            "line": 15,
+            "line": 14,
             "name": "@high"
           },
           {
-            "line": 16,
-            "name": "@SmokeTest"
-          },
-          {
-            "line": 17,
+            "line": 15,
             "name": "@RegressionTest"
           }
         ]
@@ -157,7 +149,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 8,
+        "line": 7,
         "name": "Navigate to MyAccount",
         "description": "",
         "id": "logintomyaccount;navigate-to-myaccount",
@@ -166,10 +158,10 @@
         "steps": [
           {
             "result": {
-              "duration": 23325780520,
+              "duration": 30143065834,
               "status": "passed"
             },
-            "line": 9,
+            "line": 8,
             "name": "OpenCart MyAccount Page is Navigated",
             "match": {
               "location": "LoginToMyAccount_Steps.opencart_MyAccount_Page_is_Navigated()"
@@ -178,10 +170,10 @@
           },
           {
             "result": {
-              "duration": 58739861,
+              "duration": 43799164,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "MyAccount Page is Active",
             "match": {
               "location": "LoginToMyAccount_Steps.myaccount_Page_is_Active()"
@@ -190,10 +182,10 @@
           },
           {
             "result": {
-              "duration": 25037013,
+              "duration": 21669722,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "EMailAddress Field should be enabled",
             "match": {
               "location": "LoginToMyAccount_Steps.emailaddress_Field_should_be_enabled()"
@@ -202,10 +194,10 @@
           },
           {
             "result": {
-              "duration": 27909517,
+              "duration": 22629361,
               "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "Password Field should be enabled",
             "match": {
               "location": "LoginToMyAccount_Steps.password_Field_should_be_enabled()"
@@ -214,10 +206,10 @@
           },
           {
             "result": {
-              "duration": 35709368,
+              "duration": 22103783,
               "status": "passed"
             },
-            "line": 13,
+            "line": 12,
             "name": "Login Button should be enabled",
             "match": {
               "location": "LoginToMyAccount_Steps.login_Button_should_be_enabled()"
@@ -233,27 +225,23 @@
           {
             "line": 6,
             "name": "@SmokeTest"
-          },
-          {
-            "line": 7,
-            "name": "@RegressionTest"
           }
         ]
       },
       {
-        "line": 28,
-        "name": "Login To OpenCartApplication_MyAccount With Invalid UserName and Password and Verify error message.",
+        "line": 16,
+        "name": "Login To OpenCartApplication_MyAccount Without UserName and Password and Verify Error Message",
         "description": "",
-        "id": "logintomyaccount;login-to-opencartapplication-myaccount-with-invalid-username-and-password-and-verify-error-message.",
+        "id": "logintomyaccount;login-to-opencartapplication-myaccount-without-username-and-password-and-verify-error-message",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3822349509,
+              "duration": 3673428761,
               "status": "passed"
             },
-            "line": 29,
+            "line": 17,
             "name": "UserName field displayed",
             "match": {
               "location": "LoginToMyAccount_Steps.username_field_displayed()"
@@ -262,10 +250,10 @@
           },
           {
             "result": {
-              "duration": 47992669,
+              "duration": 38378312,
               "status": "passed"
             },
-            "line": 30,
+            "line": 18,
             "name": "Password Field dispayed",
             "match": {
               "location": "LoginToMyAccount_Steps.password_Field_dispayed()"
@@ -274,34 +262,34 @@
           },
           {
             "result": {
-              "duration": 1207588765,
+              "duration": 1051598159,
               "status": "passed"
             },
-            "line": 31,
-            "name": "Enter Invalid UserName",
+            "line": 19,
+            "name": "Enter Usernamd as Empty String",
             "match": {
-              "location": "LoginToMyAccount_Steps.enter_Invalid_UserName()"
+              "location": "LoginToMyAccount_Steps.enter_Usernamd_as_Empty_String()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1133256471,
+              "duration": 1138922365,
               "status": "passed"
             },
-            "line": 32,
-            "name": "Enter Invalid Password",
+            "line": 20,
+            "name": "Enter Password as Empty String",
             "match": {
-              "location": "LoginToMyAccount_Steps.enter_Invalid_Password()"
+              "location": "LoginToMyAccount_Steps.enter_Password_as_Empty_String()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1067885944,
+              "duration": 1104324023,
               "status": "passed"
             },
-            "line": 33,
+            "line": 21,
             "name": "Click the Submit Button",
             "match": {
               "location": "LoginToMyAccount_Steps.click_the_Submit_Button()"
@@ -310,10 +298,10 @@
           },
           {
             "result": {
-              "duration": 64147,
+              "duration": 54312,
               "status": "passed"
             },
-            "line": 34,
+            "line": 22,
             "name": "Warning Message should be displayed",
             "match": {
               "location": "LoginToMyAccount_Steps.warning_Message_should_be_displayed()"
@@ -323,33 +311,29 @@
         ],
         "tags": [
           {
-            "line": 25,
-            "name": "@medium"
+            "line": 14,
+            "name": "@high"
           },
           {
-            "line": 26,
-            "name": "@SmokeTest"
-          },
-          {
-            "line": 27,
+            "line": 15,
             "name": "@RegressionTest"
           }
         ]
       },
       {
-        "line": 39,
-        "name": "Login To OpenCartApplication_MyAccount With valid Username and Password and Verify landing page",
+        "line": 26,
+        "name": "Login To OpenCartApplication_MyAccount With Invalid UserName and Password and Verify error message.",
         "description": "",
-        "id": "logintomyaccount;login-to-opencartapplication-myaccount-with-valid-username-and-password-and-verify-landing-page",
+        "id": "logintomyaccount;login-to-opencartapplication-myaccount-with-invalid-username-and-password-and-verify-error-message.",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3930656207,
+              "duration": 3702874386,
               "status": "passed"
             },
-            "line": 40,
+            "line": 27,
             "name": "UserName field displayed",
             "match": {
               "location": "LoginToMyAccount_Steps.username_field_displayed()"
@@ -358,10 +342,10 @@
           },
           {
             "result": {
-              "duration": 59620386,
+              "duration": 45268131,
               "status": "passed"
             },
-            "line": 41,
+            "line": 28,
             "name": "Password Field dispayed",
             "match": {
               "location": "LoginToMyAccount_Steps.password_Field_dispayed()"
@@ -370,34 +354,34 @@
           },
           {
             "result": {
-              "duration": 1240602675,
+              "duration": 1121189559,
               "status": "passed"
             },
-            "line": 42,
-            "name": "Enter Valid UserName",
+            "line": 29,
+            "name": "Enter Invalid UserName",
             "match": {
-              "location": "LoginToMyAccount_Steps.enter_Valid_UserName()"
+              "location": "LoginToMyAccount_Steps.enter_Invalid_UserName()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1149461721,
+              "duration": 1121805371,
               "status": "passed"
             },
-            "line": 43,
-            "name": "Enter Valid Password",
+            "line": 30,
+            "name": "Enter Invalid Password",
             "match": {
-              "location": "LoginToMyAccount_Steps.enter_Valid_Password()"
+              "location": "LoginToMyAccount_Steps.enter_Invalid_Password()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1060166492,
+              "duration": 1095287845,
               "status": "passed"
             },
-            "line": 44,
+            "line": 31,
             "name": "Click the Submit Button",
             "match": {
               "location": "LoginToMyAccount_Steps.click_the_Submit_Button()"
@@ -406,10 +390,102 @@
           },
           {
             "result": {
-              "duration": 1898999220,
+              "duration": 46186,
               "status": "passed"
             },
-            "line": 45,
+            "line": 32,
+            "name": "Warning Message should be displayed",
+            "match": {
+              "location": "LoginToMyAccount_Steps.warning_Message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@medium"
+          },
+          {
+            "line": 25,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Login To OpenCartApplication_MyAccount With valid Username and Password and Verify landing page",
+        "description": "",
+        "id": "logintomyaccount;login-to-opencartapplication-myaccount-with-valid-username-and-password-and-verify-landing-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3715162818,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "UserName field displayed",
+            "match": {
+              "location": "LoginToMyAccount_Steps.username_field_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55547478,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Password Field dispayed",
+            "match": {
+              "location": "LoginToMyAccount_Steps.password_Field_dispayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1368080353,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Enter Valid UserName",
+            "match": {
+              "location": "LoginToMyAccount_Steps.enter_Valid_UserName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1153728354,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Enter Valid Password",
+            "match": {
+              "location": "LoginToMyAccount_Steps.enter_Valid_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1058239515,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Click the Submit Button",
+            "match": {
+              "location": "LoginToMyAccount_Steps.click_the_Submit_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1559700784,
+              "status": "passed"
+            },
+            "line": 42,
             "name": "MyAccount Page should be displayed",
             "match": {
               "location": "LoginToMyAccount_Steps.myaccount_Page_should_be_displayed()"
@@ -419,15 +495,15 @@
         ],
         "tags": [
           {
-            "line": 36,
+            "line": 34,
             "name": "@high"
           },
           {
-            "line": 37,
+            "line": 35,
             "name": "@SmokeTest"
           },
           {
-            "line": 38,
+            "line": 35,
             "name": "@RegressionTest"
           }
         ]
@@ -438,5 +514,233 @@
     "id": "logintomyaccount",
     "keyword": "Feature",
     "uri": "LoginToMyAccount.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Search for iMac",
+        "description": "",
+        "id": "searchproduct-imac;search-for-imac",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14513067605,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "OpenCart Application is Displayed",
+            "match": {
+              "location": "SearchProduct_Steps.opencart_Application_is_Displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3326908224,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Search for Product",
+            "match": {
+              "location": "SearchProduct_Steps.i_Search_for_Product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1596645624,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Search list of the product should be displayed",
+            "match": {
+              "location": "SearchProduct_Steps.search_list_of_the_product_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Search for product",
+        "description": "",
+        "id": "searchproduct-imac;search-for-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12567130293,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "OpenCart Application is Displayed",
+            "match": {
+              "location": "SearchProduct_Steps.opencart_Application_is_Displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3507538131,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Search for Product",
+            "match": {
+              "location": "SearchProduct_Steps.i_Search_for_Product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1611540136,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Search list of the product should be displayed",
+            "match": {
+              "location": "SearchProduct_Steps.search_list_of_the_product_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "SearchProduct-iMac",
+    "description": "As a User,\r\nI want to search for products in Open Cart store",
+    "id": "searchproduct-imac",
+    "keyword": "Feature",
+    "uri": "SearchProduct-iMac.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "CheckInToGit",
+        "description": "",
+        "id": "sycwuthgit;checkintogit",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 323301,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "ChangeInCode",
+            "match": {
+              "location": "SyncWithGit.changeincode()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60726,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "AutoBuild should be executed",
+            "match": {
+              "location": "SyncWithGit.autobuild_should_be_executed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35922,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "PublichResult",
+            "match": {
+              "location": "SyncWithGit.publichresult()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "CheckInToGitForRegression",
+        "description": "",
+        "id": "sycwuthgit;checkintogitforregression",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 196290,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "ChangeInCode",
+            "match": {
+              "location": "SyncWithGit.changeincode()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41909,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "AutoBuild should be executed",
+            "match": {
+              "location": "SyncWithGit.autobuild_should_be_executed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27369,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "PublichResult",
+            "match": {
+              "location": "SyncWithGit.publichresult()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "SycWuthGit",
+    "description": "As a User\r\nI need to checkin new code",
+    "id": "sycwuthgit",
+    "keyword": "Feature",
+    "uri": "SyncWithGit.feature"
   }
 ]

@@ -12,7 +12,6 @@ import ct.store.StepDefinition.TestRunner;
 
 public class SampleTest {
 	WebDriver driver;
-	//http://www.guru99.com/maven-jenkins-with-selenium-complete-tutorial.html
   @Test
   
   public void launchOpenCart() {	  

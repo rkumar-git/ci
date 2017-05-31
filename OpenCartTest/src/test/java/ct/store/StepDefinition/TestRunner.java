@@ -8,8 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		format = {"pretty","html:target/Destination","json:target/Destination/cucumberReport.json"},
-		tags= {"@SmokeTest", "@RegressionTest"}, 
-        features = "src/test/java/ct/store/features",
+		features = "src/test/java/ct/store/features",
         glue={"ct.store.StepDefinition"},
         dryRun=false
         )

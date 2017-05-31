@@ -32,7 +32,7 @@ When Enter Invalid UserName
 Then Warning Message should be displayed 
 
 @high
-@RegressionTest
+@SmokeTest @RegressionTest
 Scenario: Login To OpenCartApplication_MyAccount With valid Username and Password and Verify landing page
 	Given UserName field displayed
 	And Password Field dispayed 
