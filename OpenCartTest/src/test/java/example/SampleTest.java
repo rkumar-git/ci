@@ -11,6 +11,7 @@ import ct.store.StepDefinition.TestRunner;
 
 
 public class SampleTest {
+	/*
 	WebDriver driver;
   @Test
   
@@ -34,5 +35,5 @@ public class SampleTest {
   public void afterTest() {
 	  driver.quit();
   }
-
+*/
 }

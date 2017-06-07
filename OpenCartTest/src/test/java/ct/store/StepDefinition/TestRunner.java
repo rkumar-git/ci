@@ -8,6 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		format = {"pretty","html:target/Destination","json:target/Destination/cucumberReport.json"},
+		//features = "src/test/java/ct/store/features/RemoteTest.feature",
 		features = "src/test/java/ct/store/features",
         glue={"ct.store.StepDefinition"},
         dryRun=false

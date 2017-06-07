@@ -1,0 +1,6 @@
+Feature:RemoteTest
+
+Scenario:RemoteTestExecution
+Given HunAndNodeConnected
+When I access The Application
+Then Application Should launch successfully

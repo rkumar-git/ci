@@ -1,10 +1,13 @@
 package ct.store.StepDefinition;
 
+import java.net.URL;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -20,13 +23,13 @@ public class LaunchOpenCartStoreApplication_Steps {
 	*******************************************************************************************/
 	@Given("^The WebBrowser Opened$")
 	public void the_WebBrowser_Opened() throws Throwable {
+		String geckodriverpath="D:\\eclipse-workspace\\Kepler-OpenCartPOC\\TestDrivers\\geckodriver-150\\geckodriver.exe";
 		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 		capabilities.setCapability("marionette", true);
-		String geckodriverpath="D:\\eclipse-workspace\\Kepler-OpenCartPOC\\TestDrivers\\geckodriver64bit\\geckodriver.exe";
-        System.setProperty("webdriver.gecko.driver",geckodriverpath);
+	    System.setProperty("webdriver.gecko.driver",geckodriverpath);
 		driver = new FirefoxDriver(capabilities);
 		driver.manage().window().maximize();
-		System.out.println("Oened the Browser.");
+		System.out.println("Opened the Browser - Local Test Mode.");
 	}
 
 	@When("^I Navigate to OpenStore Application$")
