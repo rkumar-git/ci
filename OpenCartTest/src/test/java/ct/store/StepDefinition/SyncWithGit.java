@@ -16,6 +16,7 @@ public class SyncWithGit {
 		 System.out.println("Check auto buils triggered..");
 		 System.out.println("Check auto buils triggered on 29May2017");
 		 System.out.println("Check auto buils triggered on 7thJune2017");
+		 System.out.println("Check auto buils triggered on 8thJune2017");
 	}
 	@Then("^PublichResult$")
 	public void publichresult() throws Throwable {

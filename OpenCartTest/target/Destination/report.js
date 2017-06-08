@@ -43,21 +43,21 @@ formatter.match({
   "location": "LaunchOpenCartStoreApplication_Steps.the_WebBrowser_Opened()"
 });
 formatter.result({
-  "duration": 8696941330,
+  "duration": 21833999254,
   "status": "passed"
 });
 formatter.match({
   "location": "LaunchOpenCartStoreApplication_Steps.i_Navigate_to_OpenStore_Application()"
 });
 formatter.result({
-  "duration": 45634873281,
+  "duration": 30834651845,
   "status": "passed"
 });
 formatter.match({
   "location": "LaunchOpenCartStoreApplication_Steps.openstore_Application_Should_be_displayed()"
 });
 formatter.result({
-  "duration": 216337541,
+  "duration": 393198849,
   "status": "passed"
 });
 formatter.scenario({
@@ -107,35 +107,35 @@ formatter.match({
   "location": "LaunchOpenCartStoreApplication_Steps.opencart_Application_is_Active()"
 });
 formatter.result({
-  "duration": 62777945,
+  "duration": 59925529,
   "status": "passed"
 });
 formatter.match({
   "location": "LaunchOpenCartStoreApplication_Steps.opencart_Image_Should_be_displayed()"
 });
 formatter.result({
-  "duration": 74492093,
+  "duration": 68043581,
   "status": "passed"
 });
 formatter.match({
   "location": "LaunchOpenCartStoreApplication_Steps.search_Inputbox_should_be_displayed()"
 });
 formatter.result({
-  "duration": 48413232,
+  "duration": 51896001,
   "status": "passed"
 });
 formatter.match({
   "location": "LaunchOpenCartStoreApplication_Steps.search_Button_should_be_displayed()"
 });
 formatter.result({
-  "duration": 37634779,
+  "duration": 76630763,
   "status": "passed"
 });
 formatter.match({
   "location": "LaunchOpenCartStoreApplication_Steps.myaccount_Link_should_be_displayed()"
 });
 formatter.result({
-  "duration": 1015023720,
+  "duration": 1526883909,
   "status": "passed"
 });
 formatter.uri("LoginToMyAccount.feature");
@@ -193,35 +193,35 @@ formatter.match({
   "location": "LoginToMyAccount_Steps.opencart_MyAccount_Page_is_Navigated()"
 });
 formatter.result({
-  "duration": 30314347308,
+  "duration": 25540877851,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.myaccount_Page_is_Active()"
 });
 formatter.result({
-  "duration": 41497300,
+  "duration": 42863210,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.emailaddress_Field_should_be_enabled()"
 });
 formatter.result({
-  "duration": 20475383,
+  "duration": 23164864,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.password_Field_should_be_enabled()"
 });
 formatter.result({
-  "duration": 17542569,
+  "duration": 19862135,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.login_Button_should_be_enabled()"
 });
 formatter.result({
-  "duration": 20326561,
+  "duration": 33536623,
   "status": "passed"
 });
 formatter.scenario({
@@ -276,42 +276,42 @@ formatter.match({
   "location": "LoginToMyAccount_Steps.username_field_displayed()"
 });
 formatter.result({
-  "duration": 24785361934,
+  "duration": 3798855527,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.password_Field_dispayed()"
 });
 formatter.result({
-  "duration": 37956798,
+  "duration": 39709729,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.enter_Usernamd_as_Empty_String()"
 });
 formatter.result({
-  "duration": 1040046716,
+  "duration": 1127610740,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.enter_Password_as_Empty_String()"
 });
 formatter.result({
-  "duration": 1074445906,
+  "duration": 1092255328,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.click_the_Submit_Button()"
 });
 formatter.result({
-  "duration": 1073656895,
+  "duration": 1235693340,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.warning_Message_should_be_displayed()"
 });
 formatter.result({
-  "duration": 202705,
+  "duration": 68423,
   "status": "passed"
 });
 formatter.scenario({
@@ -366,42 +366,42 @@ formatter.match({
   "location": "LoginToMyAccount_Steps.username_field_displayed()"
 });
 formatter.result({
-  "duration": 24765758955,
+  "duration": 3719542553,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.password_Field_dispayed()"
 });
 formatter.result({
-  "duration": 42617740,
+  "duration": 55463445,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.enter_Invalid_UserName()"
 });
 formatter.result({
-  "duration": 1124071094,
+  "duration": 1211084734,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.enter_Invalid_Password()"
 });
 formatter.result({
-  "duration": 1137086576,
+  "duration": 1129913201,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.click_the_Submit_Button()"
 });
 formatter.result({
-  "duration": 1089617164,
+  "duration": 1094395281,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.warning_Message_should_be_displayed()"
 });
 formatter.result({
-  "duration": 95366,
+  "duration": 96649,
   "status": "passed"
 });
 formatter.scenario({
@@ -460,42 +460,42 @@ formatter.match({
   "location": "LoginToMyAccount_Steps.username_field_displayed()"
 });
 formatter.result({
-  "duration": 24689807297,
+  "duration": 3703598534,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.password_Field_dispayed()"
 });
 formatter.result({
-  "duration": 39776870,
+  "duration": 38875815,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.enter_Valid_UserName()"
 });
 formatter.result({
-  "duration": 1173393078,
+  "duration": 1281087374,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.enter_Valid_Password()"
 });
 formatter.result({
-  "duration": 1181967004,
+  "duration": 1137542877,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.click_the_Submit_Button()"
 });
 formatter.result({
-  "duration": 1060016191,
+  "duration": 1079738912,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginToMyAccount_Steps.myaccount_Page_should_be_displayed()"
 });
 formatter.result({
-  "duration": 1574761297,
+  "duration": 1675343797,
   "status": "passed"
 });
 formatter.uri("SearchProduct-iMac.feature");
@@ -539,21 +539,21 @@ formatter.match({
   "location": "SearchProduct_Steps.opencart_Application_is_Displayed()"
 });
 formatter.result({
-  "duration": 33310590843,
+  "duration": 11143259682,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchProduct_Steps.i_Search_for_Product()"
 });
 formatter.result({
-  "duration": 3206290367,
+  "duration": 3517293036,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchProduct_Steps.search_list_of_the_product_should_be_displayed()"
 });
 formatter.result({
-  "duration": 1995764996,
+  "duration": 1733263655,
   "status": "passed"
 });
 formatter.scenario({
@@ -589,21 +589,21 @@ formatter.match({
   "location": "SearchProduct_Steps.opencart_Application_is_Displayed()"
 });
 formatter.result({
-  "duration": 30307637075,
+  "duration": 26746199595,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchProduct_Steps.i_Search_for_Product()"
 });
 formatter.result({
-  "duration": 3299013543,
+  "duration": 3188887212,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchProduct_Steps.search_list_of_the_product_should_be_displayed()"
 });
 formatter.result({
-  "duration": 1589261575,
+  "duration": 2736438517,
   "status": "passed"
 });
 formatter.uri("SyncWithGit.feature");
@@ -647,21 +647,21 @@ formatter.match({
   "location": "SyncWithGit.changeincode()"
 });
 formatter.result({
-  "duration": 296360,
+  "duration": 398141,
   "status": "passed"
 });
 formatter.match({
   "location": "SyncWithGit.autobuild_should_be_executed()"
 });
 formatter.result({
-  "duration": 35923,
+  "duration": 115465,
   "status": "passed"
 });
 formatter.match({
   "location": "SyncWithGit.publichresult()"
 });
 formatter.result({
-  "duration": 25659,
+  "duration": 57305,
   "status": "passed"
 });
 formatter.scenario({
@@ -697,21 +697,21 @@ formatter.match({
   "location": "SyncWithGit.changeincode()"
 });
 formatter.result({
-  "duration": 172770,
+  "duration": 238200,
   "status": "passed"
 });
 formatter.match({
   "location": "SyncWithGit.autobuild_should_be_executed()"
 });
 formatter.result({
-  "duration": 26514,
+  "duration": 106485,
   "status": "passed"
 });
 formatter.match({
   "location": "SyncWithGit.publichresult()"
 });
 formatter.result({
-  "duration": 19671,
+  "duration": 50890,
   "status": "passed"
 });
 });
